@@ -139,10 +139,10 @@ class PdfPlanSorter:
         self.extract_weights_plans_and_pages()
         self.extract_batches_plans_and_pages()
 
-        json_data = json.dumps(self.dictionary, indent=8)
+        # json_data = json.dumps(self.dictionary, indent=8)
 
-        # Print or use the JSON data
-        print(json_data)
+        # # Print or use the JSON data
+        # print(json_data)
 
         # Function to print JSON data letter by letter
         # def print_json_letter_by_letter(data):
